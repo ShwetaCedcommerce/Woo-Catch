@@ -1,0 +1,395 @@
+{
+    "attributes" : [ {
+      "code" : "internal-sku",
+      "default_value" : null,
+      "description" : null,
+      "description_translations" : [ ],
+      "example" : null,
+      "hierarchy_code" : "",
+      "label" : "Internal SKU",
+      "label_translations" : [ {
+        "locale" : "en",
+        "value" : "Internal SKU"
+      } ],
+      "required" : true,
+      "requirement_level" : "REQUIRED",
+      "roles" : [ {
+        "parameters" : [ ],
+        "type" : "SHOP_SKU"
+      } ],
+      "type" : "TEXT",
+      "type_parameter" : null,
+      "values" : null,
+      "values_list" : null,
+      "variant" : false
+    }, {
+    "code" : "product-reference-type",
+    "default_value" : null,
+    "description" : "Define here if your product reference is a EAN/UPC or ISBN",
+    "description_translations" : [ {
+        "locale" : "en",
+        "value" : "Define here if your product reference is a EAN/UPC or ISBN"
+    } ],
+    "example" : null,
+    "hierarchy_code" : "",
+    "label" : "Product reference type",
+    "label_translations" : [ {
+        "locale" : "en",
+        "value" : "Product reference type"
+    } ],
+    "required" : true,
+    "requirement_level" : "REQUIRED",
+    "roles" : [ ],
+    "type" : "LIST",
+    "type_parameter" : null,
+     "values": [{
+        "code": "isbn",
+        "label": "ISBN",
+        "label_translations": [{
+            "locale": "en",
+            "value": "ISBN"
+        	}]
+        },{
+        "code": "ean",
+        "label": "EAN",
+        "label_translations": [{
+                "locale": "en",
+                "value": "EAN"
+            }]
+        },{
+        "code": "upc",
+        "label": "UPC",
+        "label_translations": [
+                {
+                    "locale": "en",
+                    "value": "UPC"
+                }
+            ]
+        },
+        {
+            "code": "mpn",
+            "label": "MPN",
+            "label_translations": [
+                {
+                    "locale": "en",
+                    "value": "MPN"
+                }
+            ]
+        },
+        {
+            "code": "sku",
+            "label": "SKU",
+            "label_translations": [
+                {
+                    "locale": "en",
+                    "value": "SKU"
+                }
+            ]
+        }
+    ],
+    "values_list" : null,
+    "variant" : false
+    }, {
+    "code" : "product-reference-value",
+    "default_value" : null,
+    "description" : null,
+    "description_translations" : [ ],
+    "example" : null,
+    "hierarchy_code" : "",
+    "label" : "Product reference value",
+    "label_translations" : [ {
+        "locale" : "en",
+        "value" : "Product reference value"
+    } ],
+    "required" : true,
+    "requirement_level" : "REQUIRED",
+    "roles" : [ ],
+    "type" : "TEXT",
+    "type_parameter" : null,
+    "values" : null,
+    "values_list" : null,
+    "variant" : false
+    },{
+    "code" : "brand",
+    "default_value" : null,
+    "description" : null,
+    "description_translations" : [ ],
+    "example" : null,
+    "hierarchy_code" : "",
+    "label" : "Brand",
+    "label_translations" : [ {
+        "locale" : "en",
+        "value" : "Brand"
+    } ],
+    "required" : true,
+    "requirement_level" : "REQUIRED",
+    "roles" : [ ],
+    "type" : "TEXT",
+    "type_parameter" : null,
+    "type_parameters" : null,
+    "values" : null,
+    "values_list" : null,
+    "variant" : false
+    },{
+    "code" : "weight",
+    "default_value" : null,
+    "description" : null,
+    "description_translations" : [ ],
+    "example" : null,
+    "hierarchy_code" : "apparel & footwear > men's > footwear > sports & athletics",
+    "label" : "Weight",
+    "label_translations" : [ {
+        "locale" : "en",
+        "value" : "Weight"
+    } ],
+    "required" : true,
+    "requirement_level" : "REQUIRED",
+    "roles" : [ ],
+    "type" : "DECIMAL",
+    "type_parameter" : "2",
+    "type_parameters" : [ {
+        "name" : "PRECISION",
+        "value" : "2"
+    } ],
+    "values" : null,
+    "values_list" : null,
+    "variant" : false
+    }, {
+    "code" : "weight-unit",
+    "default_value" : null,
+    "description" : "Unit of measure for Weight (default: kg)",
+    "description_translations" : [ {
+        "locale" : "en",
+        "value" : "Unit of measure for Weight (default: kg)"
+    } ],
+    "example" : "kg",
+    "hierarchy_code" : "apparel & footwear > men's > footwear > sports & athletics",
+    "label" : "Weight unit",
+    "label_translations" : [ {
+        "locale" : "en",
+        "value" : "Weight unit"
+    } ],
+    "required" : true,
+    "requirement_level" : "REQUIRED",
+    "roles" : [ ],
+    "type" : "LIST",
+    "type_parameter" : "unit-weight",
+    "type_parameters" : [ {
+        "name" : "LIST_CODE",
+        "value" : "unit-weight"
+    } ],
+    "values" : [ {
+        "code" : "g",
+        "label" : "g",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "g"
+        } ]
+      }, {
+        "code" : "kg",
+        "label" : "kg",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "kg"
+        } ]
+      }, {
+        "code" : "oz",
+        "label" : "oz",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "oz"
+        } ]
+      } ],
+    "values_list" : "unit-weight",
+    "variant" : false
+    }, {
+    "code" : "height",
+    "default_value" : null,
+    "description" : null,
+    "description_translations" : [ ],
+    "example" : null,
+    "hierarchy_code" : "apparel & footwear > men's > footwear > sports & athletics",
+    "label" : "Height",
+    "label_translations" : [ {
+        "locale" : "en",
+        "value" : "Height"
+    } ],
+    "required" : true,
+    "requirement_level" : "REQUIRED",
+    "roles" : [ ],
+    "type" : "DECIMAL",
+    "type_parameter" : "2",
+    "type_parameters" : [ {
+        "name" : "PRECISION",
+        "value" : "2"
+    } ],
+    "values" : null,
+    "values_list" : null,
+    "variant" : false
+    }, {
+    "code" : "height-unit",
+    "default_value" : null,
+    "description" : "Unit of measure for Height (default: cm)",
+    "description_translations" : [ {
+        "locale" : "en",
+        "value" : "Unit of measure for Height (default: cm)"
+    } ],
+    "example" : null,
+    "hierarchy_code" : "apparel & footwear > men's > footwear > sports & athletics",
+    "label" : "Height unit",
+    "label_translations" : [ {
+        "locale" : "en",
+        "value" : "Height unit"
+    } ],
+    "required" : true,
+    "requirement_level" : "REQUIRED",
+    "roles" : [ ],
+    "type" : "LIST",
+    "type_parameter" : "unit-length",
+    "type_parameters" : [ {
+        "name" : "LIST_CODE",
+        "value" : "unit-length"
+    } ],
+    "values" : [ {
+        "code" : "mm",
+        "label" : "mm",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "mm"
+        } ]
+      }, {
+        "code" : "cm",
+        "label" : "cm",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "cm"
+        } ]
+      }, {
+        "code" : "m",
+        "label" : "m",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "m"
+        } ]
+      }, {
+        "code" : "in",
+        "label" : "in",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "in"
+        } ]
+      }, {
+        "code" : "ft",
+        "label" : "ft",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "ft"
+        } ]
+      }, {
+        "code" : "km",
+        "label" : "km",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "km"
+        } ]
+      }, {
+        "code" : "mi",
+        "label" : "mi",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "mi"
+        } ]
+      }, {
+        "code" : "yd",
+        "label" : "yd",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "yd"
+        } ]
+      } ],
+    "values_list" : "unit-length",
+    "variant" : false
+    },{
+    "code" : "keywords",
+    "default_value" : null,
+    "description" : "Words or phrases best describing your product for better search on the Catch site limited to 100 characters. The \"|\" character is to be used as the separator. E.g. For \"Blue|White|Red\", the separator is \"|\" (A \"space\" value will not be accepted).",
+    "description_translations" : [ {
+      "locale" : "en",
+      "value" : "Words or phrases best describing your product for better search on the Catch site limited to 100 characters. The \"|\" character is to be used as the separator. E.g. For \"Blue|White|Red\", the separator is \"|\" (A \"space\" value will not be accepted)."
+    } ],
+    "example" : "womens dress|brand name|summer dresses|dress|maxi dress",
+    "hierarchy_code" : "",
+    "label" : "Keywords",
+    "label_translations" : [ {
+      "locale" : "en",
+      "value" : "Keywords"
+    } ],
+    "required" : false,
+    "requirement_level" : "OPTIONAL",
+    "roles" : [ ],
+    "type" : "MULTIPLE",
+    "type_parameter" : null,
+    "type_parameters" : null,
+    "values" : null,
+    "values_list" : null,
+    "variant" : false
+  },{
+        "code" : "condition",
+        "default_value" : "11",
+        "description" : "Condition of the product",
+        "description_translations" : [ {
+          "locale" : "en",
+          "value" : "Condition of the product"
+        } ],
+        "example" : "11",
+        "hierarchy_code" : "",
+        "label" : "Condition",
+        "label_translations" : [ {
+          "locale" : "en",
+          "value" : "Condition"
+        } ],
+        "required" : false,
+        "requirement_level" : "OPTIONAL",
+        "roles" : [ ],
+        "type" : "LIST",
+        "type_parameter" : "condition",
+        "type_parameters" : [ {
+          "name" : "LIST_CODE",
+          "value" : "condition"
+        }, {
+          "name" : "DEFAULT_VALUE",
+          "value" : "11"
+        } ],
+        "values" : [ {
+            "code" : "11",
+            "label" : "New",
+            "label_translations" : [ {
+              "locale" : "en",
+              "value" : "New"
+            } ]
+          }, {
+            "code" : "13",
+            "label" : "Refurbished Grade A",
+            "label_translations" : [ {
+              "locale" : "en",
+              "value" : "Refurbished Grade A"
+            } ]
+          }, {
+            "code" : "14",
+            "label" : "Refurbished Grade B",
+            "label_translations" : [ {
+              "locale" : "en",
+              "value" : "Refurbished Grade B"
+            } ]
+          }, {
+            "code" : "6",
+            "label" : "Pre-loved",
+            "label_translations" : [ {
+              "locale" : "en",
+              "value" : "Pre-loved"
+            } ]
+          } ],
+        "values_list" : "condition",
+        "variant" : false
+      } ]
+}
