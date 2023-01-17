@@ -1,0 +1,35 @@
+*** Catch Integration for WooCommerce  ***
+
+2022-11-01 - version 1.0.8
+* Optimize product page
+* Improved stability
+* Added auto update product status functionality
+
+2022-09-09 - version 1.0.7
+* Fix Background Inventory Sync
+
+2022-08-10 - version 1.0.6
+* Improved stability
+
+2022-08-04 - version 1.0.5
+* Optimised product upload process
+* Improved stability
+
+2022-06-01 - version 1.0.4
+* Add - Upload offer with product feature
+* Add - Added log section
+* Add - Added filter for synced product by identifier and changed status for synced product
+* Add - Added error report feed status on each product
+* Add - Improved stability
+
+2022-03-30 - version 1.0.3
+* Fix - Bug fixes
+
+2022-03-23 - version 1.0.2
+* Fix - Products filter
+
+2021-10-28 - version 1.0.1
+* Improved Stability
+
+2021-07-28 - version 1.0.0
+* Inital release

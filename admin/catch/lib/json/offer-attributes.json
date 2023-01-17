@@ -1,0 +1,375 @@
+[{
+        "code" : "price",
+        "default_value" : null,
+        "description" : "Price of the product to be uploaded on Catch.If left blank woocommerce price will be used.",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Price",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Price"
+        } ],
+        "required" : true,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Price"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "state",
+        "default_value" : null,
+        "description" : "Condition of the product",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "State",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "State"
+        } ],
+        "required" : true,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "State"
+        } ],
+        "type" : "LIST",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : [{"code":"11","label":"New","label_translations":{"label_translation":{"locale":"en","value":"New"}}},{"code":"10","label":"Refurbished","label_translations":{"label_translation":{"locale":"en","value":"Refurbished"}}},{"code":"13","label":"Refurbished - Grade A","label_translations":{"label_translation":{"locale":"en","value":"Refurbished - Grade A"}}},{"code":"14","label":"Refurbished - Grade B","label_translations":{"label_translation":{"locale":"en","value":"Refurbished - Grade B"}}}],
+        "variant" : false
+}, {
+        "code" : "club-catch-eligible",
+        "default_value" : null,
+        "description" : "whether you want to offer free shipping",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Club Catch Eligible",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Club Catch Eligible"
+        } ],
+        "required" : true,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Club Catch Eligible"
+        } ],
+        "type" : "LIST",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : [{"code":"true","label":"Yes","label_translations":{"label_translation":{"locale":"en","value":"Yes"}}},{"code":"false","label":"No","label_translations":{"label_translation":{"locale":"en","value":"No"}}}],
+        "variant" : false
+}, {
+        "code" : "tax-au",
+        "default_value" : null,
+        "description" : "How much percentage of gst you wish to add on products",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "GST %",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "GST %"
+        } ],
+        "required" : true,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "GST %"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "description",
+        "default_value" : null,
+        "description" : null,
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Description",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Description"
+        } ],
+        "required" : false,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Description"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "internal-description",
+        "default_value" : null,
+        "description" : null,
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Internal Description",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Internal Description"
+        } ],
+        "required" : false,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Internal Description"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "price-additional-info",
+        "default_value" : null,
+        "description" : null,
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Price Additional Info",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Price Additional Info"
+        } ],
+        "required" : false,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Price Additional Info"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "min-quantity-alert",
+        "default_value" : null,
+        "description" : null,
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Min Quantity Alert",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Min Quantity Alert"
+        } ],
+        "required" : false,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Min Quantity Alert"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "available-start-date",
+        "default_value" : null,
+        "description" : null,
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Available Start Date",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Available Start Date"
+        } ],
+        "required" : false,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Available Start Date"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "available-end-date",
+        "default_value" : null,
+        "description" : null,
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Available End Date",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Available End Date"
+        } ],
+        "required" : false,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Available End Date"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "logistic-class",
+        "default_value" : null,
+        "description" : "Choose the shipping method you wish to upload",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Logistic Class",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Logistic Class"
+        } ],
+        "required" : true,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Logistic Class"
+        } ],
+        "type" : "LIST",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : [{"code":"FLAT","label":"Flat Rate","label_translations":{"label_translation":{"locale":"en","value":"FLAT"}}},{"code":"SLW","label":"Small - Light Weight","label_translations":{"label_translation":{"locale":"en","value":"SLW"}}},{"code":"SMW","label":"Small - Medium Weight","label_translations":{"label_translation":{"locale":"en","value":"SMW"}}},{"code":"SHW","label":"Small - Heavy Weight","label_translations":{"label_translation":{"locale":"en","value":"SHW"}}},{"code":"MLW","label":"Medium - Light Weight","label_translations":{"label_translation":{"locale":"en","value":"MLW"}}},{"code":"MMW","label":"Medium - Medium Weight","label_translations":{"label_translation":{"locale":"en","value":"MMW"}}},{"code":"MHW","label":"Medium - Heavy Weight","label_translations":{"label_translation":{"locale":"en","value":"MHW"}}},{"code":"MSHW","label":"Medium - Super Heavy Weight","label_translations":{"label_translation":{"locale":"en","value":"MSHW"}}},{"code":"LLW","label":"Large - Light Weight","label_translations":{"label_translation":{"locale":"en","value":"LLW"}}},{"code":"LMW","label":"Large - Medium Weight","label_translations":{"label_translation":{"locale":"en","value":"LMW"}}},{"code":"LHW","label":"Large - Heavy Weight","label_translations":{"label_translation":{"locale":"en","value":"LHW"}}},{"code":"LSHW","label":"Large - Super Heavy Weight","label_translations":{"label_translation":{"locale":"en","value":"LSHW"}}},{"code":"L2MC","label":"Large - 2 Men Carry","label_translations":{"label_translation":{"locale":"en","value":"L2MC"}}},{"code":"OLW","label":"Oversize - Light Weight","label_translations":{"label_translation":{"locale":"en","value":"OLW"}}},{"code":"OMW","label":"Oversize - Medium Weight","label_translations":{"label_translation":{"locale":"en","value":"OMW"}}},{"code":"OHW","label":"Oversize - Heavy Weight","label_translations":{"label_translation":{"locale":"en","value":"OHW"}}},{"code":"OSHW","label":"Oversize - Super Heavy Weight","label_translations":{"label_translation":{"locale":"en","value":"OSHW"}}},{"code":"O2MC","label":"Oversize - 2 Men Carry","label_translations":{"label_translation":{"locale":"en","value":"O2MC"}}},{"code":"SOA","label":"Super Oversize - A","label_translations":{"label_translation":{"locale":"en","value":"SOA"}}},{"code":"SOB","label":"Super Oversize - B","label_translations":{"label_translation":{"locale":"en","value":"SOB"}}},{"code":"FREE","label":"FREE","label_translations":{"label_translation":{"locale":"en","value":"FREE"}}}],
+        "variant" : false
+}, {
+        "code" : "discount-price",
+        "default_value" : null,
+        "description" : "Discount price of the product to be uploaded on Catch.",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Discount Price",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Discount Price"
+        } ],
+        "required" : false,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Discount Price"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "discount-start-date",
+        "default_value" : null,
+        "description" : null,
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Discount Start Date",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Discount Start Date"
+        } ],
+        "required" : false,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Discount Start Date"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "discount-end-date",
+        "default_value" : null,
+        "description" : null,
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Discount End Date",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Discount End Date"
+        } ],
+        "required" : false,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Discount End Date"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "leadtime-to-ship",
+        "default_value" : null,
+        "description" : "Choose days to ship the products.",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Leadtime To Ship",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Leadtime To Ship"
+        } ],
+        "required" : true,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Leadtime To Ship"
+        } ],
+        "type" : "LIST",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : [{"code":1,"label":"1 Days","label_translations":{"label_translation":{"locale":"en","value":"1 Days"}}},{"code":2,"label":"2 Days","label_translations":{"label_translation":{"locale":"en","value":"2 Days"}}},{"code":3,"label":"3 Days","label_translations":{"label_translation":{"locale":"en","value":"3 Days"}}},{"code":4,"label":"4 Days","label_translations":{"label_translation":{"locale":"en","value":"4 Days"}}},{"code":5,"label":"5 Days","label_translations":{"label_translation":{"locale":"en","value":"5 Days"}}},{"code":6,"label":"6 Days","label_translations":{"label_translation":{"locale":"en","value":"6 Days"}}},{"code":7,"label":"7 Days","label_translations":{"label_translation":{"locale":"en","value":"7 Days"}}},{"code":8,"label":"8 Days","label_translations":{"label_translation":{"locale":"en","value":"8 Days"}}},{"code":9,"label":"9 Days","label_translations":{"label_translation":{"locale":"en","value":"9 Days"}}},{"code":10,"label":"10 Days","label_translations":{"label_translation":{"locale":"en","value":"10 Days"}}},{"code":11,"label":"11 Days","label_translations":{"label_translation":{"locale":"en","value":"11 Days"}}},{"code":12,"label":"12 Days","label_translations":{"label_translation":{"locale":"en","value":"12 Days"}}},{"code":13,"label":"13 Days","label_translations":{"label_translation":{"locale":"en","value":"13 Days"}}},{"code":14,"label":"14 Days","label_translations":{"label_translation":{"locale":"en","value":"14 Days"}}},{"code":15,"label":"15 Days","label_translations":{"label_translation":{"locale":"en","value":"15 Days"}}},{"code":16,"label":"16 Days","label_translations":{"label_translation":{"locale":"en","value":"16 Days"}}},{"code":17,"label":"17 Days","label_translations":{"label_translation":{"locale":"en","value":"17 Days"}}},{"code":18,"label":"18 Days","label_translations":{"label_translation":{"locale":"en","value":"18 Days"}}},{"code":19,"label":"19 Days","label_translations":{"label_translation":{"locale":"en","value":"19 Days"}}},{"code":20,"label":"20 Days","label_translations":{"label_translation":{"locale":"en","value":"20 Days"}}},{"code":21,"label":"21 Days","label_translations":{"label_translation":{"locale":"en","value":"21 Days"}}},{"code":22,"label":"22 Days","label_translations":{"label_translation":{"locale":"en","value":"22 Days"}}},{"code":23,"label":"23 Days","label_translations":{"label_translation":{"locale":"en","value":"23 Days"}}},{"code":24,"label":"24 Days","label_translations":{"label_translation":{"locale":"en","value":"24 Days"}}},{"code":25,"label":"25 Days","label_translations":{"label_translation":{"locale":"en","value":"25 Days"}}},{"code":26,"label":"26 Days","label_translations":{"label_translation":{"locale":"en","value":"26 Days"}}},{"code":27,"label":"27 Days","label_translations":{"label_translation":{"locale":"en","value":"27 Days"}}},{"code":28,"label":"28 Days","label_translations":{"label_translation":{"locale":"en","value":"28 Days"}}},{"code":29,"label":"29 Days","label_translations":{"label_translation":{"locale":"en","value":"29 Days"}}},{"code":30,"label":"30 Days","label_translations":{"label_translation":{"locale":"en","value":"30 Days"}}},{"code":31,"label":"31 Days","label_translations":{"label_translation":{"locale":"en","value":"31 Days"}}},{"code":32,"label":"32 Days","label_translations":{"label_translation":{"locale":"en","value":"32 Days"}}},{"code":33,"label":"33 Days","label_translations":{"label_translation":{"locale":"en","value":"33 Days"}}},{"code":34,"label":"34 Days","label_translations":{"label_translation":{"locale":"en","value":"34 Days"}}},{"code":35,"label":"35 Days","label_translations":{"label_translation":{"locale":"en","value":"35 Days"}}},{"code":36,"label":"36 Days","label_translations":{"label_translation":{"locale":"en","value":"36 Days"}}},{"code":37,"label":"37 Days","label_translations":{"label_translation":{"locale":"en","value":"37 Days"}}},{"code":38,"label":"38 Days","label_translations":{"label_translation":{"locale":"en","value":"38 Days"}}},{"code":39,"label":"39 Days","label_translations":{"label_translation":{"locale":"en","value":"39 Days"}}},{"code":40,"label":"40 Days","label_translations":{"label_translation":{"locale":"en","value":"40 Days"}}},{"code":41,"label":"41 Days","label_translations":{"label_translation":{"locale":"en","value":"41 Days"}}},{"code":42,"label":"42 Days","label_translations":{"label_translation":{"locale":"en","value":"42 Days"}}},{"code":43,"label":"43 Days","label_translations":{"label_translation":{"locale":"en","value":"43 Days"}}},{"code":44,"label":"44 Days","label_translations":{"label_translation":{"locale":"en","value":"44 Days"}}},{"code":45,"label":"45 Days","label_translations":{"label_translation":{"locale":"en","value":"45 Days"}}}],
+        "variant" : false
+}, {
+        "code" : "best-before-date",
+        "default_value" : null,
+        "description" : null,
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Best Before Date",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Best Before Date"
+        } ],
+        "required" : false,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Best Before Date"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}, {
+        "code" : "expiry-date",
+        "default_value" : null,
+        "description" : null,
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Expiry Date",
+        "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Expiry Date"
+        } ],
+        "required" : false,
+        "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Expiry Date"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+}]
